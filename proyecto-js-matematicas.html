@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./proyecto-js-matematicas.css">
+    <title>PROYECTO_JS_MATEMATICAS</title>
+</head>
+<body>
+   <div class="content-total-project">
+    <div class="form-container">
+        <h1 class="first-title" >PRESTACIONES SOCIALES 2023</h1>
+
+        <form action="/" class="form">
+            <label for="salario" class="label-wage">Salario $:</label>
+            <input type="number" id="box-wage" placeholder="Ingrese valor">
+        </form>
+
+        <form action="/" class="form">
+            <label for="auxilio-transporte" class="label-transport-assistance">Auxilio de Transporte $:</label>
+            <input type="number" id="transport-assistance" placeholder="140606">
+        </form>
+
+        <form action="/" class="form">
+            <label for="dias-laborados" class="label-working-days">Dias Laborados:</label>
+            <input type="number" id="working-days" placeholder="Ingrese valor">
+        </form>    
+       
+        <button id="btnCalcular">Calcular</button>
+
+        <h2 class="second-title" >VALORES CALCULADOS</h2>
+
+        <p id="parrafo-cesantias"> Cesantías:</p> 
+        <p id="layoffs"></p>
+        <p id="parrafo-intereses-cesantias">Intereses Cesantías: </p>
+        <p id="layoffs-interest"></p>
+        <p id="parrafo-prima"> Prima:</p>
+        <p id="bond"></p>
+        <p id="parrafo-vacaciones">Vacaciones:</p>
+        <p id="holidays"></p>
+        <p id="parrafo-total-prestaciones">Total Prestaciones Sociales:</p>
+        <p id="total"></p>
+
+
+    </div>
+   </div> 
+
+    <script src="./proyecto-js-matematicas.js" ></script>
+</body>
+</html>

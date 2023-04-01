@@ -1,0 +1,223 @@
+:root {
+    --whithe: #FFFFFF;
+    --black: #000000;
+    --IndianRed: #CD5C5C;
+    --OrangeCrazy: #F39C12;
+    --WhiteHalls: #D4AC0D; 
+    --PurpleProject: #884EA0;
+    --very-ligth-pink: #C7C7C7;
+    --grey-iphone: #BFC9CA;
+    --grey-iphone-tittle: #5F6A6A;
+    --fondo-calculadora: #212F3C;
+    --texto-invisible: #1A5276;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+.form {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--grey-iphone)
+
+}
+
+.content-total-project {
+    width: 100%;
+    height: 100hv;
+    display: grid;
+    place-items: center;
+    
+    
+}
+
+.form-container {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    width: 500px;
+    border: var(--whithe);
+    border: solid;
+    background-color: var(--fondo-calculadora)
+}
+
+.first-title {
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+    color: var(--grey-iphone-tittle);
+}
+
+.label-wage {
+    font-size: var(--md);
+    font-weight: bold;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.label-transport-assistance {
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-left: 8px;
+}
+
+.label-working-days {
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#box-wage {
+    background-color: var(--WhiteHalls);
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    height: 8px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+#transport-assistance {
+    background-color: var(--WhiteHalls);
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    height: 8px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+#working-days {
+    background-color: var(--WhiteHalls);
+    border: solid;
+    border-width: 1px;
+    border-radius: 8px;
+    height: 8px;
+    font-size: var(--md);
+    padding: 6px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+#btnCalcular {
+    background-color: var(--OrangeCrazy);
+    border-radius: 8px;
+    border: none;
+    color: var(--black);
+    width: 80%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    margin-left: 50px;
+
+}
+
+.second-title {
+    font-size: var(--lg);
+    margin-bottom: 12px;
+    text-align: center;
+    color: var(--grey-iphone-tittle);
+}
+
+#parrafo-cesantias{
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#layoffs{
+    font-size: var(--md);
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: var(--texto-invisible);
+    font-weight: bold;
+}
+
+#parrafo-intereses-cesantias{
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#layoffs-interest{
+    font-size: var(--md);
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: var(--texto-invisible);
+    font-weight: bold;
+}
+
+#parrafo-prima{
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#bond {
+    font-size: var(--md);
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: var(--texto-invisible);
+    font-weight: bold;
+}
+
+#parrafo-vacaciones{
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+#holidays{
+    font-size: var(--md);
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: var(--texto-invisible);
+    font-weight: bold;
+}
+
+#parrafo-total-prestaciones{
+    font-size: var(--md);
+    font-weight: bold;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
