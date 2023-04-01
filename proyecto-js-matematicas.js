@@ -92,9 +92,6 @@ function calculoPrestaciones () {
     resultados.forEach(function(resultado) {
     suma += resultado;
     });
-    console.log(resultados);
-
-    console.log("La suma es: " + suma);
 
     resultadoTotalPrestaciones.innerText = '$ ' + suma + ' COP';
 };
